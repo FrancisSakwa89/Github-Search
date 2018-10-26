@@ -1,9 +1,9 @@
 a{
-    padding-left: 120px;
+    padding-right: 80px;
     text-decoration: none;
   }
   #navbar a {
-    float:left;
+    float:right;
     display: block;
     text-align: center;
     padding: 14px 16px;
@@ -12,11 +12,18 @@ a{
   }
   
   #navbar a:hover {
-    background-color:black;
-    color:white;
+    background-color:yellow;
+    color:black;
   }
   
   #navbar a.active {
-    background-color:black;
+    background-color:grey;
     color: lightgreen;
+  }
+  h1{
+     color: brown;
+     text-align: center;
+  }
+  #well{
+     background-color: grey;
   }
