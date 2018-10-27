@@ -1,29 +1,30 @@
 a{
-    padding-right: 80px;
-    text-decoration: none;
-  }
-  #navbar a {
-    float:right;
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  #navbar a:hover {
-    background-color:yellow;
-    color:black;
-  }
-  
-  #navbar a.active {
-    background-color:grey;
-    color: lightgreen;
-  }
-  h1{
-     color: brown;
-     text-align: center;
-  }
-  #well{
-     background-color: grey;
-  }
+  padding-left: 120px;
+  text-decoration: none;
+}
+#navbar a {
+  float:right;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: dashed;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color:yellow;
+  color:green;
+}
+
+#navbar a.active {
+  background-color:black;
+  color:cyan;
+}
+#well{
+  background-color:salmon;
+text-align: center;
+}
+h1{
+   color:black;
+   text-align: center;
+}

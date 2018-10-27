@@ -1,12 +1,13 @@
+<div id="panel">
 <h2>{{user$.name|uppercase}}<small>({{user$.login}})</small></h2>
 
 <img src="{{user$.avatar_url}}" class="img-square img-responsive" alt="{{user$.login}}">
-
+<div class="jumbotron">
 <h3 style="text-align:center;">PUBLIC REPOSITORIES<small class="label label-default"><em>({{user$.public_repos}} Public Repos.)</em></small></h3>
 <div class="repos" *ngFor= "let repo of repo$, let i = index">
   <div class="row">
 
-
+ <div class="panel panel-info">
   <div class="card">
     <div class="card-header">
     <h4>{{repo$[i].name}}</h4>
@@ -18,4 +19,7 @@
   </div>
   </div>
   <br>
+</div>
+</div>
+</div>
 </div>
