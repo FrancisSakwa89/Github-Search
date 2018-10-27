@@ -1,6 +1,6 @@
 # Git-Search
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.5.
 
 #### _**This Github-search application uses the github api**_
 
@@ -39,7 +39,7 @@ For further help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 ## Application live site.
-Here you will have a look on the application and get to use it on [this link](https://Francis.github.io/Git-Search/).
+Here you will have a look on the application and get to use it on [this link](https://francissakwa89.github.io/Github-Search/).
 
 
 ### LICENSE
